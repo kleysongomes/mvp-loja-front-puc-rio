@@ -1,12 +1,12 @@
 # MVP Loja Front-End - PUC-Rio
 
-## 📝 Descrição do Projeto
+## Descrição do Projeto
 
 Esta é uma Single Page Application (SPA) desenvolvida em React.js para o Produto Mínimo Viável (MVP) da disciplina de Arquitetura de Software da PUC-Rio.
 
 A interface se comunica exclusivamente com a API Principal (Back-End) para realizar operações de CRUD de usuários, autenticação, gerenciamento de pagamentos, compras e renderização da vitrine de produtos.
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 -   Visualização da vitrine de produtos.
 -   Cadastro e autenticação de usuários (JWT).
@@ -16,7 +16,7 @@ A interface se comunica exclusivamente com a API Principal (Back-End) para reali
 -   Finalização de compras.
 -   Exclusão de conta.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 *   **Biblioteca Principal:** React 18
 *   **Build Tool:** Vite
@@ -26,7 +26,7 @@ A interface se comunica exclusivamente com a API Principal (Back-End) para reali
 *   **Estilização:** CSS3 (Custom Design System)
 *   **Conteinerização:** Docker + Nginx
 
-## 🔌 Endpoints da API Consumidos
+## Endpoints da API Consumidos
 
 A interface consome os seguintes métodos HTTP para interagir com o back-end:
 
@@ -35,16 +35,16 @@ A interface consome os seguintes métodos HTTP para interagir com o back-end:
 *   **`PUT`**: Atualização de dados cadastrais do perfil (nome, e-mail e endereço).
 *   **`DELETE`**: Exclusão de formas de pagamento e encerramento definitivo da conta do usuário.
 
-## 🚀 Como Executar
+## Como Executar
 
-### 📋 Pré-requisitos
+### Pré-requisitos
 
 *   Node.js (v18 ou superior)
 *   Docker
 
-> **⚠️ Atenção:** Para que a aplicação funcione, o Back-End (API Principal) **deve** estar em execução e acessível na porta `8000`.
+> ** Atenção:** Para que a aplicação funcione, o Back-End (API Principal) **deve** estar em execução e acessível na porta `8000`.
 
-### ⚙️ Instalação
+### Instalação
 
 1.  Clone o repositório:
     ```bash
@@ -57,7 +57,7 @@ A interface consome os seguintes métodos HTTP para interagir com o back-end:
     npm install
     ```
 
-### 📦 Opção 1: Execução Local (Desenvolvimento)
+### Opção 1: Execução Local (Desenvolvimento)
 
 1.  Inicie o servidor de desenvolvimento:
     ```bash
@@ -66,7 +66,7 @@ A interface consome os seguintes métodos HTTP para interagir com o back-end:
 
 2.  Acesse a aplicação em `http://localhost:5173` no seu navegador.
 
-### 🐳 Opção 2: Execução com Docker (Produção)
+### Opção 2: Execução com Docker (Produção)
 
 1.  Construa a imagem Docker:
     ```bash
