@@ -13,7 +13,12 @@ function Login() {
     e.preventDefault();
     try {
       if (isLoginMode) {
-        const response = await api.post('/login/', { username, password });
+        const formData = new URLSearchParams();
+        formData.append('username', username);
+        formData.append('password', password);
+
+        const response = await api.post('/login/', formData);
+        
         localStorage.setItem('token', response.data.access_token);
         navigate('/');
       } else {
@@ -23,7 +28,15 @@ function Login() {
         setPassword('');
       }
     } catch (error) {
-      setMessage(error.response?.data?.detail || 'Erro na operação.');
+      const detail = error.response?.data?.detail;
+      
+      if (Array.isArray(detail)) {
+        setMessage('Erro de validação: Verifique os dados enviados.');
+      } else if (typeof detail === 'string') {
+        setMessage(detail);
+      } else {
+        setMessage('Erro na operação. Verifique a conexão.');
+      }
     }
   };
 

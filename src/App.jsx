@@ -31,9 +31,9 @@ function App() {
             <Link to="/login" className="btn btn-primary btn-auto">Fazer Login</Link>
           ) : (
             <>
-              <Link to="/" className="btn btn-secondary btn-auto"><ShoppingBag size={18} /> Vitrine</Link>
-              <Link to="/profile" className="btn btn-secondary btn-auto"><User size={18} /> Meu Perfil</Link>
-              <button className="btn btn-danger btn-auto" onClick={handleLogout}><LogOut size={18} /> Sair</button>
+              <Link to="/" className="btn btn-secondary btn-auto"><ShoppingBag size={18} /></Link>
+              <Link to="/profile" className="btn btn-secondary btn-auto"><User size={18} /></Link>
+              <button className="btn btn-danger btn-auto" onClick={handleLogout}><LogOut size={18} /></button>
             </>
           )}
         </div>
