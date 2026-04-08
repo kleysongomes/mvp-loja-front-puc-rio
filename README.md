@@ -39,7 +39,7 @@ A interface consome os seguintes métodos HTTP para interagir com o back-end:
 
 ### 📋 Pré-requisitos
 
-*   Node.js (v18 ou superior)
+*   Node.js (v20.19 ou superior)
 *   Docker
 
 > **⚠️ Atenção:** Para que a aplicação funcione, o Back-End (API Principal) **deve** estar em execução e acessível na porta `8000`.
