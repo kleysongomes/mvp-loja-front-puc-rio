@@ -2,7 +2,7 @@
 
 ## 📝 Descrição do Projeto
 
-Esta é uma Single Page Application (SPA) desenvolvida em React.js para o Produto Mínimo Viável (MVP) da disciplina de Arquitetura de Software da PUC-Rio.
+Esta é uma Single Page Application (SPA) desenvolvida em React.js para o Produto Mínimo Viável (MVP) da disciplina de Desenvolvimento Back-end Avançado da PUC-Rio.
 
 A interface se comunica exclusivamente com a API Principal (Back-End) para realizar operações de CRUD de usuários, autenticação, gerenciamento de pagamentos, compras e renderização da vitrine de produtos.
 
